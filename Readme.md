@@ -4,3 +4,10 @@
 
 // 08.04 
 //data types 
+
+// 10.04 
+// boolen va object
+
+// boolen-> mantiqiy qiymatlar uchun javob beradigan data
+// obyekt-> dunyodagi narsalar va shaxslar
+

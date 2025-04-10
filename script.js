@@ -23,35 +23,63 @@
 // // let ham ozgaruvchini bir turi
 // let c=20;
 // c=25;
+
 // console.log(c);
 
 // // u let degan ozgaruvchini nomini olsagina ishlaydi
 
 // // const esa ozgarmas
 // const d=30;
-// d=35; // bu xato
+// //
+// // d=35; // bu xato
 // console.log(d);
 
 
-// data types
-// malumot turlari deb tarjima qilinadi
-// karopa bu ozgaruvchi ,uni ichidagi olma polma -> qiymat tahlash i turlardi turi haqida gaplashamiz
-// 8 ta turi malumot turlarini 8 ta 
-//number,bigint,string,boolean,undefined ,null ,symbol ,object
-// number -> son,raqam  1,2,3 4.5 ,3.5,6.7
- let a=5;
-let b=5.6
-console.log(a,b);
-let c=9007199254740991;
-console.log(typeof(c));
-// bigint bu katta sonlar
-// typeof- buni turi yanikim
-// string-> bu matn 
-let jr='abdurasul'   // ' '-shu " "-> tekst turini kiritishda foydalanalida
-console.log(jr)
-console.log(typeof(jr));
+// let l=5;
+// let m=5.6
+// console.log(l,m);
+// let h=9007199254740991;
+// console.log(typeof(h));
+// // bigint bu katta sonlar
+// // typeof- buni turi yanikim
+// // string-> bu matn 
+// let jr='abdurasul'   // ' '-shu " "-> tekst turini kiritishda foydalanalida
+// console.log(jr)
+// console.log(typeof(jr));
 
-//null i undefined 
-// undefined -> berilmagan topilmagan 
-let k;
-console.log(k)
+// //null i undefined 
+// // undefined -> berilmagan topilmagan 
+// let k;
+// console.log(k)
+// boolen
+// true yoki false 
+// > < == || &&
+let a=4;
+let b=3;
+if(a>b)
+{
+    console.log("true");
+}
+// object
+// object doim konstant bilan ishlaydi,person -> obyekt nomi
+const person={
+    name:'ozodbek', // name,age kabi turdosh obyektlarda boladiganlari hossa ,ularni toldiradigan malumot bolsa qiymat buladi
+    age:'17', // hossa-> property, qiymat-> value
+    isMarried:false,
+    hobbies:['sport','music'],
+    address:{
+        city:'xujaabad',
+        street:'nargis'
+    }
+}
+// const azizbek={name:'azizbek',age:16}
+console.log(person)
+
+const Car={
+    name:'BMW',
+    age:'2023',
+    price:'200000 $',
+    color:'gray',
+    spentMile:'12000km',
+}
+console.log(Car.color)
