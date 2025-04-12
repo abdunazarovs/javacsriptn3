@@ -11,3 +11,6 @@
 // boolen-> mantiqiy qiymatlar uchun javob beradigan data
 // obyekt-> dunyodagi narsalar va shaxslar
 
+// 12.04 .2025 yil
+// alert prompt confirm
+

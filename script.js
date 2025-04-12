@@ -54,32 +54,48 @@
 // boolen
 // true yoki false 
 // > < == || &&
-let a=4;
-let b=3;
-if(a>b)
-{
-    console.log("true");
-}
-// object
-// object doim konstant bilan ishlaydi,person -> obyekt nomi
-const person={
-    name:'ozodbek', // name,age kabi turdosh obyektlarda boladiganlari hossa ,ularni toldiradigan malumot bolsa qiymat buladi
-    age:'17', // hossa-> property, qiymat-> value
-    isMarried:false,
-    hobbies:['sport','music'],
-    address:{
-        city:'xujaabad',
-        street:'nargis'
-    }
-}
-// const azizbek={name:'azizbek',age:16}
-console.log(person)
+// let a=4;
+// let b=3;
+// if(a>b)
+// {
+//     console.log("true");
+// }
+// // object
+// // object doim konstant bilan ishlaydi,person -> obyekt nomi
+// const person={
+//     name:'ozodbek', // name,age kabi turdosh obyektlarda boladiganlari hossa ,ularni toldiradigan malumot bolsa qiymat buladi
+//     age:'17', // hossa-> property, qiymat-> value
+//     isMarried:false,
+//     hobbies:['sport','music'],
+//     address:{
+//         city:'xujaabad',
+//         street:'nargis'
+//     }
+// }
+// // const azizbek={name:'azizbek',age:16}
+// console.log(person)
 
-const Car={
-    name:'BMW',
-    age:'2023',
-    price:'200000 $',
-    color:'gray',
-    spentMile:'12000km',
-}
-console.log(Car.color)
+// const Car={
+//     name:'BMW',
+//     age:'2023',
+//     price:'200000 $',
+//     color:'gray',
+//     spentMile:'12000km',
+// }
+// console.log(Car.color)
+
+
+alert 
+let tvt=alert("18 or get away" );
+// alert vazifasi ogohlantirish 
+
+let tkt=confirm("are you 18");
+console.log(typeof(tkt))
+
+let v=45;
+let txt=+prompt("sonni kiriting")
+console.log(typeof(txt));
+let sum=v+txt;
+console.log(sum)
+
+// 3+4=7 "3"+"4"=34 "kuz"+"bahor"=>kuzbahor
