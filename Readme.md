@@ -14,3 +14,5 @@
 // 12.04 .2025 yil
 // alert prompt confirm
 
+// 15.04.2025
+// if else -> shart operatorlari

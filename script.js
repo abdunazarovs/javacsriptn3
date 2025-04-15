@@ -85,17 +85,31 @@
 // console.log(Car.color)
 
 
-alert 
-let tvt=alert("18 or get away" );
-// alert vazifasi ogohlantirish 
+//alert 
+// let tvt=alert("18 or get away" );
+// // alert vazifasi ogohlantirish 
 
-let tkt=confirm("are you 18");
-console.log(typeof(tkt))
+// let tkt=confirm("are you 18");
+// console.log(typeof(tkt))
 
-let v=45;
-let txt=+prompt("sonni kiriting")
-console.log(typeof(txt));
-let sum=v+txt;
-console.log(sum)
+
+// let v=45;
+// let txt=+prompt("sonni kiriting")
+// console.log(typeof(txt));
+// let sum=v+txt;
+// console.log(sum)
 
 // 3+4=7 "3"+"4"=34 "kuz"+"bahor"=>kuzbahor
+
+//if else agar uchun 
+// agar choy ichmasam,och qolaman 
+// romb 
+let age=17;
+if(age>18)
+{
+    console.log("prava ololas oka")
+}
+else
+{
+    console.log("prava ololmaysan")
+}
