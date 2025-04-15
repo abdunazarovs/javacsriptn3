@@ -104,12 +104,15 @@
 //if else agar uchun 
 // agar choy ichmasam,och qolaman 
 // romb 
-let age=17;
-if(age>18)
+let age=+prompt("yoshingizni kiriting");
+if(age>17)
 {
-    console.log("prava ololas oka")
+    
+    console.log("prava ololas")
 }
 else
 {
     console.log("prava ololmaysan")
 }
+// > = >=
+//  >-katta  6>4
