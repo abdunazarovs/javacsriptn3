@@ -104,15 +104,57 @@
 //if else agar uchun 
 // agar choy ichmasam,och qolaman 
 // romb 
-let age=+prompt("yoshingizni kiriting");
-if(age>17)
-{
-    
-    console.log("prava ololas")
-}
-else
-{
-    console.log("prava ololmaysan")
-}
+// let age=+prompt("yoshingizni kiriting");
+// if(age>17)
+// {
+
+//     console.log("prava ololas")
+// }
+
+// else
+// {
+//     console.log("prava ololmaysan")
+// }
 // > = >=
 //  >-katta  6>4
+
+///operator
+// malum bir kichik katta 
+/// + - , if else,switch case
+// switch case
+
+//if else 
+let day =9;// kun day 5ni saqlab olyapti
+switch (day) // switch case syntax ozgaruvchi bilan qavs ichi bir xil bolishi kerak
+{
+    case 1:// => if(day===1){console.log}
+        console.log("dushanba");
+        break;
+    case 2:
+        console.log("seshanba");
+        break;
+    case 3:
+        console.log("chorshanba");
+        break;
+    case 4:
+        console.log("payshanba");
+        break;
+    case 5:
+        console.log("juma");
+        break;
+   default:
+    console.log("siz notogri kun kiritdiz");
+    break;
+
+
+
+
+
+
+
+
+
+
+
+
+}     

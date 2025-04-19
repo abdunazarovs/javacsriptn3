@@ -16,3 +16,5 @@
 
 // 15.04.2025
 // if else -> shart operatorlari
+// 19.04 .2025
+//switch case operator
