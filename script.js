@@ -152,18 +152,32 @@
 // ALGORITM KIRISH MEN PAYSHANBA KUNLARI  CHIQIB KETADI
 // for do while and while
 // sikl operatori 
-let a=12;
+// let a=12;
 // for (let i=0; i<a;i++)
 // { 
 //     console.log(i);// amal 
 // }
-// for () -> buyruq  i=> iteratsiya iteratsiya noldan yoki 1dan
-// i<a;masalaleri asosiy logika yotadi
-// i++; i++=> i+1  0 0<12? ,0+1;1 <12
+// // for () -> buyruq  i=> iteratsiya iteratsiya noldan yoki 1dan
+// // i<a;masalaleri asosiy logika yotadi
+// // i++; i++=> i+1  0 0<12? ,0+1;1 <12
 
-// do while and while
-while(a<=20) // davomida qavs ichida asosiy mantiq
-{
-  console.log(a);
-  a++;// =>i++ 1ga oshiradi 
+// // do while and while
+// while(a<=20) // davomida qavs ichida asosiy mantiq
+// {
+//   console.log(a);
+//   a++;// =>i++ 1ga oshiradi 
+// }
+
+// juft son toqson 
+//for va while juft son 
+// 2ga bolinadigan 2,4,6,8
+// a/2==0 => % foiz qoldiq
+let a=10;
+for (let i=1;i<=10;i++)
+{   
+    if(i%2==0)
+    {
+        console.log(i) 
+    }
+
 }
