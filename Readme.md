@@ -18,3 +18,7 @@
 // if else -> shart operatorlari
 // 19.04 .2025
 //switch case operator
+
+
+08.05.2025
+// takrorlash operatorlari ,takrorlash algoritmi tushunchasi

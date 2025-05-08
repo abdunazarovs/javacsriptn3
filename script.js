@@ -124,37 +124,46 @@
 // switch case
 
 //if else 
-let day =9;// kun day 5ni saqlab olyapti
-switch (day) // switch case syntax ozgaruvchi bilan qavs ichi bir xil bolishi kerak
+// let day =9;// kun day 5ni saqlab olyapti
+// switch (day) // switch case syntax ozgaruvchi bilan qavs ichi bir xil bolishi kerak
+// {case 1:// => if(day===1){console.log}
+//         console.log("dushanba");
+//         break;
+//     case 2:
+//         console.log("seshanba");
+//         break;
+//     case 3:
+//         console.log("chorshanba");
+//         break;
+//     case 4:
+//         console.log("payshanba");
+//         break;
+//     case 5:
+//         console.log("juma");
+//         break;
+//    default:
+//     console.log("siz notogri kun kiritdiz");
+//     break;
+// }     
+
+
+// takrorlash qayta qayta ishlatish ,bajarish
+// kursga 2kunda //
+// ALGORITM KIRISH MEN PAYSHANBA KUNLARI  CHIQIB KETADI
+// for do while and while
+// sikl operatori 
+let a=12;
+// for (let i=0; i<a;i++)
+// { 
+//     console.log(i);// amal 
+// }
+// for () -> buyruq  i=> iteratsiya iteratsiya noldan yoki 1dan
+// i<a;masalaleri asosiy logika yotadi
+// i++; i++=> i+1  0 0<12? ,0+1;1 <12
+
+// do while and while
+while(a<=20) // davomida qavs ichida asosiy mantiq
 {
-    case 1:// => if(day===1){console.log}
-        console.log("dushanba");
-        break;
-    case 2:
-        console.log("seshanba");
-        break;
-    case 3:
-        console.log("chorshanba");
-        break;
-    case 4:
-        console.log("payshanba");
-        break;
-    case 5:
-        console.log("juma");
-        break;
-   default:
-    console.log("siz notogri kun kiritdiz");
-    break;
-
-
-
-
-
-
-
-
-
-
-
-
-}     
+  console.log(a);
+  a++;// =>i++ 1ga oshiradi 
+}
