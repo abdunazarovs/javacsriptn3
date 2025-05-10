@@ -230,14 +230,23 @@ function Addnumber(a,b)  // function key wordi now usually  add => funksiya nomi
     console.log(a+b)   // ()=> argument 
 }
 
+Addnumber(5,10)
+Addnumber(15,10)
 
-Addnumber(5,10)   // 5 => 1 argument 10=> 2argument
+   // 5 => 1 argument 10=> 2argument
 
 function SpeakJerk(name)  // name => argument 
 {
-    console.log("shit "+name)
+    console.log("hello "+name)
 }
 SpeakJerk("muhammadqodir mashka") // ozodbek => argument
 
 // return 
 // return 0
+
+
+
+
+
+
+
