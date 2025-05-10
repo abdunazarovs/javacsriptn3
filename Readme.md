@@ -22,3 +22,6 @@
 
 08.05.2025
 // takrorlash operatorlari ,takrorlash algoritmi tushunchasi
+
+
+// 09.05.2025 funksiyalarga kirish function decleration

@@ -168,16 +168,76 @@
 //   a++;// =>i++ 1ga oshiradi 
 // }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // juft son toqson 
 //for va while juft son 
 // 2ga bolinadigan 2,4,6,8
 // a/2==0 => % foiz qoldiq
-let a=10;
-for (let i=1;i<=10;i++)
-{   
-    if(i%2==0)
-    {
-        console.log(i) 
-    }
+// let a=10;
+// for (let i=1;i<=10;i++)
+// {   
+//     if(i%2==0)
+//     {
+//         console.log(i) 
+//     }
 
+// }
+
+
+// let a=10;
+// let b=15;
+// let c=a+b;
+// console.log(c)
+
+// funksiya 3 ta asosiy turi bor declartion ,expression and arrow 
+// function decleration 
+function Addnumber(a,b)  // function key wordi now usually  add => funksiya nomi 
+{
+    console.log(a+b)   // ()=> argument 
 }
+
+
+Addnumber(5,10)   // 5 => 1 argument 10=> 2argument
+
+function SpeakJerk(name)  // name => argument 
+{
+    console.log("shit "+name)
+}
+SpeakJerk("muhammadqodir mashka") // ozodbek => argument
+
+// return 
+// return 0
